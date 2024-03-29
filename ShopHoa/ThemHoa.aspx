@@ -41,7 +41,7 @@
                 <asp:FileUpload ID="fHinh" runat="server" />
             </div>
             <div class="col-12 mt-2 text-center">
-                <asp:Button CssClass="btn btn-success" ID="btnThem" runat="server" Text="Thêm mới" />
+                <asp:Button CssClass="btn btn-success" ID="btnThem" runat="server" Text="Thêm mới" OnClick="btnThem_Click" />
             </div>
         </div>
     </div>
