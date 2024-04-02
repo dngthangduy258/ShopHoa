@@ -13,7 +13,7 @@
                 Danh mục:
             </div>
             <div class="col-9 mt-2">
-                <asp:DropDownList Width="100%" ID="DropDownList1" runat="server" DataSourceID="dsLoai" DataTextField="TenLoai" DataValueField="MaLoai"></asp:DropDownList>
+                <asp:DropDownList Width="100%" ID="ddLoaiHoa" runat="server" DataSourceID="dsLoai" DataTextField="TenLoai" DataValueField="MaLoai"></asp:DropDownList>
             </div>
             <div class="col-3 mt-2">
                 Tên hoa:
